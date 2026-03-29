@@ -1,5 +1,6 @@
 ---
 title: Northframe Documentation
+layout: default
 ---
 
 # Northframe

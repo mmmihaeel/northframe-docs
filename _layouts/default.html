@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- seo -%}
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+    <style>
+      .mermaid {
+        margin: 1.5rem 0;
+        overflow-x: auto;
+        text-align: center;
+      }
+    </style>
+    <script type="module" src="{{ '/assets/js/mermaid-init.js' | relative_url }}"></script>
+    {%- feed_meta -%}
+  </head>
+  <body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>
