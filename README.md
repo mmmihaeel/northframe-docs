@@ -1,6 +1,13 @@
 # Northframe
 
+[![Docs Site](https://img.shields.io/badge/pages-live-0ea5e9?style=flat-square)](https://mmmihaeel.github.io/northframe-docs/)
+[![Source Repo](https://img.shields.io/badge/source-private-111827?style=flat-square)](https://github.com/mmmihaeel/northframe-wp-theme)
+[![Mermaid](https://img.shields.io/badge/diagrams-rendered-15803d?style=flat-square)](ARCHITECTURE.md)
+[![Custom Domain](https://img.shields.io/badge/domain-scaffold-ready-7c3aed?style=flat-square)](CUSTOM_DOMAIN.md)
+
 Northframe is a curated WordPress theme package for portfolio, agency, and service websites. This repository is the public documentation surface for the project and focuses on architecture intent, quality review, packaging policy, and maintainership.
+
+![Northframe social preview](assets/images/social-preview.png)
 
 ## Scope
 
@@ -110,6 +117,8 @@ The codebase was audited for architecture and runtime security hygiene, but this
 ## GitHub Pages
 
 This repository is intended to be published directly with GitHub Pages as a documentation-only project.
+
+For custom domain preparation, see [`CUSTOM_DOMAIN.md`](CUSTOM_DOMAIN.md) and [`CNAME.example`](CNAME.example).
 
 ## Source Code
 

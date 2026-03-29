@@ -1,0 +1,33 @@
+name: Docs Bug
+description: Report a problem in the public documentation site or Markdown docs.
+title: "[docs] "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the documentation defect clearly.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Affected page
+      description: Provide the page URL or Markdown file path.
+      placeholder: https://mmmihaeel.github.io/northframe-docs/ARCHITECTURE.html
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true

@@ -2,3 +2,14 @@ title: Northframe Documentation
 description: Public documentation and audit notes for the Northframe WordPress theme package.
 theme: minima
 markdown: kramdown
+url: https://mmmihaeel.github.io
+baseurl: /northframe-docs
+header_pages:
+  - index.md
+  - ARCHITECTURE.md
+  - AUDIT.md
+  - COMPATIBILITY.md
+  - OPERATIONS.md
+  - SECURITY.md
+  - SUPPORT.md
+  - THIRD_PARTY.md

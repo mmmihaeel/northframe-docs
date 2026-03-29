@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Source Repository
+    url: https://github.com/mmmihaeel/northframe-wp-theme
+    about: Runtime theme source and packaged code live in the private source repository.
+  - name: Documentation Site
+    url: https://mmmihaeel.github.io/northframe-docs/
+    about: Review the published docs before opening a content or structure issue.

@@ -1,0 +1,21 @@
+name: Content Improvement
+description: Suggest a docs, navigation, or presentation improvement.
+title: "[docs-improvement] "
+labels:
+  - enhancement
+  - documentation
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the improvement and why it would help.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Note which pages or sections should change.
+    validations:
+      required: true
