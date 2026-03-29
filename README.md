@@ -26,6 +26,7 @@ This repository preserves the existing PHP implementation, theme option keys, te
 | Runtime stack | WordPress theme, PHP, JS, CSS, Elementor, Redux |
 | Internal compatibility layer | `aximo` identifiers retained |
 | Public docs site | This repository |
+| Source repository | `mmmihaeel/northframe-wp-theme` |
 | Core docs | `README.md`, `ARCHITECTURE.md`, `AUDIT.md`, `COMPATIBILITY.md`, `OPERATIONS.md`, `THIRD_PARTY.md`, `SUPPORT.md` |
 | License model | Split licensing, see `LICENSE` and `Licensing/README_License.txt` |
 
@@ -109,6 +110,10 @@ The codebase was audited for architecture and runtime security hygiene, but this
 ## GitHub Pages
 
 This repository is intended to be published directly with GitHub Pages as a documentation-only project.
+
+## Source Code
+
+The runtime theme source is maintained separately in `mmmihaeel/northframe-wp-theme`.
 
 ## Support
 
