@@ -11,7 +11,6 @@ Northframe is a curated WordPress theme package for portfolio, agency, and servi
 
 | Document | Purpose |
 | --- | --- |
-| [README.md](README.md) | Project overview |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Theme structure and runtime flow |
 | [AUDIT.md](AUDIT.md) | Quality, security, and publication audit |
 | [COMPATIBILITY.md](COMPATIBILITY.md) | Compatibility boundaries and retained identifiers |
